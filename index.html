@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let car = {
+
+            "name" : " farari",
+            "model" : " 2",
+            "price" : " 400000000",
+            "color" : " black"
+           
+
+
+
+        }
+
+        
+         let first =JSON.stringify(car)
+         localStorage.setItem("abc",first)
+
+        let xyz = JSON.parse(localStorage.getItem("abc"));
+        console.log(typeof(xyz))
+        console.log(car)
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

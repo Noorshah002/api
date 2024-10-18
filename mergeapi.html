@@ -1,0 +1,81 @@
+<script>
+
+
+let cars = [
+    {
+        "name": "Ferrari",
+        "model": "2024",
+        "price": "400000000",
+        "color": "Red"
+    },
+    {
+        "name": "Lamborghini",
+        "model": "Huracan",
+        "price": "350000000",
+        "color": "Yellow"
+    },
+    {
+        "name": "Tesla",
+        "model": "Model S",
+        "price": "20000000",
+        "color": "Black"
+    }
+];
+
+let laptops = [
+    {
+        "name": "Dell",
+        "model": "XPS 15",
+        "price": "250000",
+        "color": "Silver"
+    },
+    {
+        "name": "Apple",
+        "model": "MacBook Pro",
+        "price": "350000",
+        "color": "Space Gray"
+    },
+    {
+        "name": "HP",
+        "model": "Spectre x360",
+        "price": "220000",
+        "color": "Black"
+    }
+];
+
+let users = [
+    {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "role": "Admin"
+    },
+    {
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "role": "User"
+    },
+    {
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "role": "Moderator"
+    }
+];
+
+
+
+let  combinedData = {
+    cars: cars,
+    laptops: laptops,
+    users: users
+};
+
+// 3. Convert object to JSON string
+let jsonData = JSON.stringify(combinedData);
+
+// 4. Store the JSON string in local storage
+localStorage.setItem("combinedData", jsonData);
+
+console.log("Combined data saved to local storage!");
+
+
+</script>

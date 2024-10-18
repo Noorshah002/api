@@ -1,0 +1,21 @@
+
+  [
+    {
+        "name": "Ferrari",
+        "model": "2024",
+        "price": "400000000",
+        "color": "Red"
+    },
+    {
+        "name": "Lamborghini",
+        "model": "Huracan",
+        "price": "350000000",
+        "color": "Yellow"
+    },
+    {
+        "name": "Tesla",
+        "model": "Model S",
+        "price": "20000000",
+        "color": "Black"
+    }
+]
